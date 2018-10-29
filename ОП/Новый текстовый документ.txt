@@ -9,11 +9,12 @@ int main()
 {
 	float arrayY = 2;
 	double arrayValue;
-	do{
+	while (arrayY < 4 || abs(arrayY-4) <= 0.001) {
 		arrayValue = pow(sin(arrayY), 2) + pow((arrayY), 3) + abs(arrayY);
 		cout << "Y(" << arrayY << ") = " << arrayValue << endl;
 		arrayY += 0.2;
-	} while (arrayY < 4);
+	}
 
 	system("pause");
 	return 0;
+}
