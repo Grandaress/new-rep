@@ -1,0 +1,6 @@
+[$RootKey$\Setup\[ProductName]]
+"InstallSuccess"=dword:00000001
+"SrcPath"="[SourceDir]"
+
+[$RootKey$\Setup\Finalizers]
+"{2CE065FD-25E4-49A9-BCF5-45753C917E6F}"="DFFA6D91-B4D0-4529-820A-B99F001E1154"
